@@ -1,0 +1,102 @@
+$base-font:   'Roboto', sans-serif;
+//font-family: 'Roboto', sans-serif;
+
+
+body {
+    font: $base-font;
+  }
+
+$base-font-size: 16px !default;
+
+//font weight
+$light:300;
+$regular:400;
+$medium:500;
+$bold:700;
+
+
+//font size
+$lg:18px;
+$md:16px;
+$sm:14px;
+$title:48px;
+$subtitle:36px;
+$header:24px;
+$cap : 12px;
+
+
+// 18px 
+.txt-body-lglight{
+    font-size: $lg;
+    font-weight: $light;
+
+}
+.txt-body-lgReg{
+    font-size: $lg;
+    font-weight: $regular;
+
+}
+.txt-body-lgmedium{
+    font-size: $lg;
+    font-weight: $medium;
+
+}
+.txt-body-lgbold{
+    font-size: $lg;
+    font-weight: $bold;
+
+}
+
+//16px
+.txt-body-mdReg{
+    font-size: $md;
+    font-weight: $regular;
+
+}
+.txt-body-mdbold{
+    font-size: $md;
+    font-weight: $bold;
+
+}
+
+
+//14px
+.txt-body-smlight{
+    font-size: $sm;
+    font-weight: $light;
+
+}
+.txt-body-smReg{
+    font-size: $sm;
+    font-weight: $regular;
+
+}
+.txt-body-smbold{
+    font-size: $sm;
+    font-weight: $bold;
+
+}
+
+//48px
+.txt-title{
+    font-weight:$bold;
+font-size: $title;
+}
+
+//36px
+.txt-subtitle{
+    font-weight: $medium;
+font-size: $subtitle;
+}
+
+//24px
+.txt-header{
+    font-weight:$light;
+font-size: $header;
+}
+
+//12px
+.txt-caption{
+    font-weight:$regular;
+font-size: $cap;
+}

@@ -1,0 +1,49 @@
+
+
+.wrapper-inner{
+    margin: auto 135px;
+}
+
+.display{
+    &.block{
+        display:block;
+    }
+    &.inline{
+        display: inline;
+    }
+    &.inline-block{
+        display: inline-block;
+    }
+}
+
+.banner-img{
+        height: 378px;
+        object-fit: cover;
+        max-width: 100%;
+}
+
+
+.navbar{
+    margin: 0px;
+}
+
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.auto-width{
+    width: auto;
+}
+
+.txt-align-center{
+    text-align: center;
+}
+
+.form-control{
+    margin: 5px;
+}

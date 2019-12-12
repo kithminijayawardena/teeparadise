@@ -1,0 +1,101 @@
+@import "../color";
+
+.product-page{
+    .product-preview{
+        margin-top: 20px;
+
+        .product-thumb-lg{
+            object-fit: cover;
+            max-width: 100%;
+        }       
+        .size-list {
+            display: flex;
+            justify-content: space-between;
+
+            .size{
+                &.sm{
+                
+                    height: 50px;
+                    width: 15%;
+                    border: 3px solid $black;
+                    padding :10px;
+                 }
+
+                 &.md{
+                    height: 50px;
+                    width: 15%;
+                    border: 3px solid $black;
+                    padding :10px;
+                 }
+
+                 &.lg{
+                    height: 50px;
+                    width: 15%;
+                    border: 3px solid $black;
+                    padding :10px;
+                 }
+
+                 &.xl{
+                    height: 50px;
+                    width: 15%;
+                    border: 3px solid $black;
+                    padding :10px;
+                 }
+
+                 &.xxl{
+                    height: 50px;
+                    width: 15%;
+                    border: 3px solid $black;
+                    padding :10px;
+                 }
+
+
+            }
+          }
+          .color-list{
+              .color-lg{
+                height: 60px;
+                width: 60px;
+                background-color: $white;
+                border: 1px soild $black; 
+                border-radius: 50%;
+
+                  .color{
+                    height: 50px;
+                    width: 50px;
+                    border-radius: 50%;
+                    display: inline-block;
+
+                    &.black{
+                        background-color: $black;
+                    }
+
+                    &.white{
+                        background-color: $white;
+                    }
+
+                    &.blue{
+                        background-color: $secondary-darkBlue;
+                    }
+                  }
+              }
+          }
+            
+    
+    }
+
+    
+    .similar-products{
+        margin-top: 50px;
+    }
+
+    // #cart {
+    //     position: absolute;
+    //     transition: 1s;
+    // }
+    
+    // .btn-lg :hover #cart {
+    //     transition: 1s;
+    //     left: 0;
+    // }
+    }

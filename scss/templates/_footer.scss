@@ -1,0 +1,39 @@
+//@import "@material/textfield/mdc-text-field";
+
+.footer-nav{
+    .footer-padding{
+        padding: 25px 10px;
+    }
+    
+    .footer-listItems {
+        list-style: none;
+        padding: 5px;
+        width:100%;
+        a{
+            text-decoration: none;
+        }    
+         :hover{
+                text-decoration: underline;
+            }
+    }
+
+   .paymentmethods{
+       padding: 10px 25px;
+       img{
+           margin: 10px 5px;
+       }
+   }
+
+   .input-group{
+       margin: 10px 25px;
+       height: 40px;
+   }
+
+   .social{
+       .custom-icons{
+           margin: 5px;
+       }
+   }
+}
+
+

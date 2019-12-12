@@ -1,0 +1,64 @@
+@import "varibles";
+@import "mixins";
+@import "typography";
+@import "color";
+@import "common";
+@import "buttons";
+@import "templates/hero";
+@import "templates/header";
+@import "templates/pagination";
+@import "templates/footer";
+@import "components/productHr";
+@import "components/navComponent";
+@import "components/product-page";
+@import "components/cart-page";
+@import "components/check-out-page1";
+@import "components/check-out-page2";
+@import "components/success-page";
+
+@import "overrides";
+
+
+//hero image scss
+// .wrapper-inner{
+//     margin: auto 135px;
+//     border: 1px solid blue;
+// }
+
+//     .hero{
+//         img{
+//             width: 100%;
+//             height: 378px;
+//         }
+//     }
+// //nav compo sccs
+//     .page-nav{
+//         margin: 10px 0;
+//         a{
+        
+//             height: 36px;
+//             padding: 10px;
+//             margin-right: 10px;
+//         }
+
+//         :hover{
+//             background-color: gray;
+//             border-bottom: 5px solid black;
+//             text-decoration: none;
+//         }
+//     }
+
+//     .product{
+//         .card-productHr{
+//             margin: 30px;
+//             .productImg{
+//                 height: 380px;
+//             }
+//         }
+//     }
+// }
+
+
+
+//productImg 270*320
+//card-productHr margin 30px

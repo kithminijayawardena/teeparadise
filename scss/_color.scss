@@ -1,0 +1,50 @@
+
+//primary theme colors
+$black:#0C0C0C;
+$white:#F8F8F8;
+$primary-blue:#0C0559;
+$primary-darkGray :#949494;
+
+
+//secondary colors
+$secondary-dullBlue :#1F1BA6;
+$secondary-darkBlue :#0A05A6;
+$secondary-gray:#E2E1E1;
+$accent:#A68A00;
+
+
+
+//text colours
+.txtcolor-primaryBlack{
+    color: $black;
+}
+.txtcolor-primaryWhite{
+    color: $white;
+}
+.txtcolor-primarydarkGray{
+    color: $primary-darkGray
+}
+
+.txtcolor-disableTxt{
+    color: $secondary-gray;
+}
+
+
+//background colors
+.bgcolor-primaryBlack{
+    background-color: $black;
+}
+.bgcolor-primaryWhite{
+    background-color: $white;
+}
+.bgcolor-primaryBlue{
+    background-color: $primary-blue;
+}
+
+.bgcolor-primary-darkGray{
+    background-color: $primary-darkGray;
+}
+
+.bgcolor-secondaryGray{
+    background-color: $secondary-gray;
+}

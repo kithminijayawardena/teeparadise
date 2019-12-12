@@ -1,0 +1,31 @@
+.container{
+    
+        .card-productHr{
+            padding: 10px;
+        
+            .productImg{
+                height: 380px;
+                object-fit: cover;
+                max-width: 100%;
+                margin-bottom: 5px;
+
+            }
+
+            .poster{
+                img{
+
+                    object-fit: cover;
+                    max-width: 60%;
+                    margin-bottom: 5px;
+                }
+            }
+            
+
+            .display-flex{
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+
+}
