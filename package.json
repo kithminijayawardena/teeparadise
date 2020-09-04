@@ -13,6 +13,6 @@
     "@material/textfield": "^4.0.0",
     "bootstrap": "^4.3.1",
     "material-design-icons": "^3.0.1",
-    "node-sass": "^4.13.0"
+    "node-sass": "^4.13.1"
   }
 }
